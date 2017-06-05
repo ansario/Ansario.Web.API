@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ansario.Web.API", "Ansario.Web.API\Ansario.Web.API.csproj", "{524F4CAB-8D29-4F03-AE6E-353ED075D0BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ansario.Web.API.Tests", "Ansario.Web.API.Tests\Ansario.Web.API.Tests.csproj", "{94865F92-F723-48BA-84F1-2B58839C9C9D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{524F4CAB-8D29-4F03-AE6E-353ED075D0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{524F4CAB-8D29-4F03-AE6E-353ED075D0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{524F4CAB-8D29-4F03-AE6E-353ED075D0BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94865F92-F723-48BA-84F1-2B58839C9C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94865F92-F723-48BA-84F1-2B58839C9C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94865F92-F723-48BA-84F1-2B58839C9C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94865F92-F723-48BA-84F1-2B58839C9C9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

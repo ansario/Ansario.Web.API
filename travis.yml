@@ -1,9 +1,0 @@
-language: csharp
-script:
-  - xbuild /p:Configuration=Debug solution-name.sln
-#before_install:
-#  - sudo apt-get install nunit-console
-before_script:
-  - nuget restore Ansario.Web.API.sln
-#after_script:
-#  - nunit-console Tests/bin/Debug/Tests.dll

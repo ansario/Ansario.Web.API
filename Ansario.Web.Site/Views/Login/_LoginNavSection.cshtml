@@ -1,0 +1,20 @@
+﻿@model Ansario.Web.Site.Models.LoginModel
+
+@using (Html.BeginForm("Login", "Login", FormMethod.Post, new {@class = "form-inline my-2 my-lg-0 ml-auto", role = "search" }))
+{
+    @Html.AntiForgeryToken();
+    @Html.ValidationSummary(true);
+    @Html.ValidationMessageFor(m => m.Username);
+
+    @*@Html.LabelFor(m => m.Username)
+    @Html.TextBoxFor(m => m.Id)
+    @Html.ValidationMessageFor(m => m.Id)
+    @Html.LabelFor(m => m.Code)
+    @Html.TextBoxFor(m => m.Code)
+    @Html.ValidationMessageFor(m => m.Code)*@
+        @Html.TextBoxFor(m => m.Username, new { @class = "form-control mr-sm-2", placeholder = "Username", tabindex = 2, name = "username", type = "text" })
+        @Html.TextBoxFor(m => m.Password, new { @class = "form-control mr-sm-2", placeholder = "Password", tabindex = 2, name = "password", type = "password" })
+    <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Login</button>
+}
+
+    

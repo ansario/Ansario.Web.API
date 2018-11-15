@@ -3,6 +3,7 @@ using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.Configuration;
 using Ansario.Web.API.Repositories;
 using Ansario.Web.API.Orchestrators;
+using Ansario.Web.API.Services;
 
 namespace Ansario.Web.API.App_Start
 {
@@ -41,6 +42,8 @@ namespace Ansario.Web.API.App_Start
             // container.RegisterType<IProductRepository, ProductRepository>();
             container.RegisterType<IMongoDbRepository, MongoDbRepository>();
             container.RegisterType<IAuthenticationOrchestrator, AuthenticationOrchestrator>();
+            container.RegisterType<IToneAnalyzerService, ToneAnalyzerService>();
+
         }
     }
 }
